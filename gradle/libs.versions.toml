@@ -77,7 +77,7 @@ androidx-navigation-compose = { module = "androidx.navigation:navigation-compose
 # Liquid glass surfaces (Apache-2.0). Compose-native and guarded internally:
 # the refraction shader needs API 33, and the library falls back to a plain
 # translucent fill below that rather than failing.
-backdrop = { module = "io.github.kyant0:backdrop", version = "2.0.0" }
+backdrop = { module = "io.github.kyant0:backdrop", version = "1.0.6" }
 # Capsule and friends, used by the vendored Liquid* components.
 kyant-shapes = { module = "io.github.kyant0:shapes", version = "1.2.0" }
 # Phosphor (MIT). Apple's SF Symbols are licensed for Apple platforms only, so
