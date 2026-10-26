@@ -42,7 +42,7 @@ val keystoreProperties = Properties().apply {
 
 android {
     namespace = "dev.lelonio.square"
-    compileSdk = 37
+    compileSdk = 36
     ndkVersion = ndkVersionForCargo
 
     defaultConfig {
