@@ -1175,7 +1175,7 @@ private fun StorageChart() {
 @Composable
 private fun IndexFooter() {
     Text(
-        "Square ${BuildConfig.VERSION_NAME}",
+        "MusicExpo ${BuildConfig.VERSION_NAME}",
         style = MaterialTheme.typography.bodySmall,
         color = InkDim,
         modifier = Modifier.fillMaxWidth().padding(top = 8.dp),
@@ -2420,9 +2420,9 @@ private val LICENCES = listOf(
     "astring" to "MIT",
 )
 
-private const val GITHUB_USER = "Lelonio"
-private const val GITHUB_URL = "https://github.com/Lelonio"
+private const val GITHUB_USER = "Ridwan"
+private const val GITHUB_URL = "https://github.com/rkulu"
 private const val KOFI_URL = "https://ko-fi.com/lelonio"
-private const val DISCUSSIONS_URL = "https://github.com/Lelonio/Square/discussions"
-private const val TELEGRAM_COMMUNITY_URL = "https://t.me/+SAOhZ4HTFpMwNDJk"
-private const val NEW_ISSUE_URL = "https://github.com/Lelonio/Square/issues/new/choose"
+private const val DISCUSSIONS_URL = "https://github.com/rkulu/MusicExpo/discussions"
+private const val TELEGRAM_COMMUNITY_URL = "https://t.me/rkulu"
+private const val NEW_ISSUE_URL = "https://github.com/rkulu/MusicExpo/issues/new/choose"
