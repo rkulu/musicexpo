@@ -2448,7 +2448,7 @@ private val LICENCES = listOf(
     "astring" to "MIT",
 )
 
-private const val GITHUB_USER = "rkulu"
+private const val GITHUB_USER = "Ridwan Kulu"
 private const val GITHUB_URL = "https://github.com/rkulu"
 private const val KOFI_URL = "https://ko-fi.com/rkulu"
 private const val DISCUSSIONS_URL = "https://github.com/rkulu/musicexpo/discussions"

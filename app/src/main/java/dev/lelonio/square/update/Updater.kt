@@ -263,7 +263,7 @@ class Updater(context: Context) {
         )
         val sessionId = installer.createSession(params)
         installer.openSession(sessionId).use { session ->
-            session.openWrite("square", 0, apk.length()).use { output ->
+            session.openWrite("MusicExpo", 0, apk.length()).use { output ->
                 apk.inputStream().use { it.copyTo(output) }
                 session.fsync(output)
             }
@@ -302,7 +302,7 @@ class Updater(context: Context) {
     companion object {
         private const val TAG = "Updater"
 
-        const val REPO = "Lelonio/Square"
+        const val REPO = "rkulu/musicexpo"
 
         /** Told apart from a network failure so the UI can offer the way out. */
         const val REASON_PERMISSION = "permission"

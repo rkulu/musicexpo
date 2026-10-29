@@ -76,7 +76,7 @@ object RemoteConnect {
      *
      * The mirror image of [playback], and it exists because being handed
      * playback is something that happens *to* this app: another client presses
-     * "Square" in its own device list, Spotify sends the engine a transfer, and
+     * "MusicExpo" in its own device list, Spotify sends the engine a transfer, and
      * the engine starts playing a track the app knows nothing about. This is
      * where it finds out what it is playing and, more importantly, what queue it
      * came from.
