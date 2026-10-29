@@ -113,7 +113,7 @@ class SponsorBlock(
         val connection = (url.openConnection() as HttpURLConnection).apply {
             connectTimeout = TIMEOUT_MS
             readTimeout = TIMEOUT_MS
-            setRequestProperty("User-Agent", "Square")
+            setRequestProperty("User-Agent", "MusicExpo")
         }
         return try {
             // 404 is SponsorBlock saying it has nothing for this video.
